@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{588c502c-2856-40d4-9fbc-9f422b5bd354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects11">
+      <UniqueIdentifier>{cf8744b3-070c-47e2-979a-08d2afacebfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{39e8cd69-bab4-4fe4-86c0-01f3abeadd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{4e14c136-c89b-489d-bb4e-70dfad7d25c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{0f7810f6-ad01-4260-921f-da233a09495b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HDR_BLOOM.cpp" />
+    <ClCompile Include="Sources\PhongShader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Shader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ToneMappingShader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\RenderToTexture.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\HighPassShader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BlurShaderH.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BlurShaderV.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\d3dxGlobal.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectAPI.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectLoad.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectNonRuntime.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectReflection.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectRuntime.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\d3dx11dbg.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Headers\PhongShader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Shader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ToneMappingShader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\RenderToTexture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\HighPassShader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BlurShaderH.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BlurShaderV.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CameraManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\d3dxGlobal.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Effect.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\EffectBinaryFormat.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\EffectLoad.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\EffectStateBase11.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\EffectStates11.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\pchfx.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\SOParser.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\d3dx11dbg.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\d3dx11effect.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.ico" />
+    <None Include="Shaders\phong.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\tonemapping.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\highpass.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\blur_h.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\blur_v.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Effects11\EffectVariable.inl">
+      <Filter>Effects11</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HDR_BLOOM.rc" />
+  </ItemGroup>
+</Project>

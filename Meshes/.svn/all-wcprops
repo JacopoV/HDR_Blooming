@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/15/trunk/Meshes
+END
+Squid.sdkmesh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/15/trunk/Meshes/Squid.sdkmesh
+END
+flat.sdkmesh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/15/trunk/Meshes/flat.sdkmesh
+END
+ball.sdkmesh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/15/trunk/Meshes/ball.sdkmesh
+END
+Teapot.sdkmesh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/15/trunk/Meshes/Teapot.sdkmesh
+END
+cube.sdkmesh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/15/trunk/Meshes/cube.sdkmesh
+END
